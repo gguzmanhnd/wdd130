@@ -49,7 +49,7 @@ article {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
 }
 
 h1 {
