@@ -70,7 +70,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 10.7;
-    background-color: var(#264653);
+    background-color: var(--accent1-color);
     color: white;
 }
 
