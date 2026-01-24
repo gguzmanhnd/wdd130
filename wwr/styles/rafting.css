@@ -24,18 +24,8 @@ article {
     padding: 8px;
 }
 
-nav a {
-    color: blue;
-    padding: 5px;
-    display: block;
-}
-
-header,
-main,
-footer {
-    width: 840px;
-    margin: 0 auto;
-
+.socialmedia a {
+    text-decoration: none;
 }
 
 .hero {
@@ -61,8 +51,22 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 10.7;
-    background-color: var(white);
+    background-color: var(#264653);
     color: white;
+}
+
+nav a {
+    color: blue;
+    padding: 5px;
+    display: block;
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+
 }
 
 p {
@@ -124,8 +128,4 @@ article p {
 article img {
     width: 200px;
     text-align: justify;
-}
-
-.socialmedia a {
-    text-decoration: none;
 }
