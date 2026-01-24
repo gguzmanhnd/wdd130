@@ -32,6 +32,10 @@ article {
     position: relative;
 }
 
+.hero h1 {
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
