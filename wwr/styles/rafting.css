@@ -102,7 +102,7 @@ p {
     height: auto;
 }
 
-.hero-content {
+.hero-article {
     position: absolute;
     opacity: 0.9;
     margin-top: 8rem;
@@ -112,12 +112,19 @@ p {
     align-items: center;
 }
 
-.hero-content img {
+.hero-article img {
     float: right;
     width: 125px;
 }
 
 section {
+    padding: 2rem;
+    margin: 0 auto;
+
+    align-items: center;
+}
+
+section div {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -134,6 +141,13 @@ section p {
 
 }
 
+section article {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
 article {
     margin: 0 auto;
     display: grid;
@@ -141,7 +155,7 @@ article {
     align-items: center;
 }
 
-article img {
+section article img {
     padding: 1%;
     max-width: 165px;
     height: 160px;
