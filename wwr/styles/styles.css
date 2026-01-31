@@ -4,6 +4,48 @@
     box-sizing: border-box;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+#logo {
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navigation a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
 body {
     font-family: Arial Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -26,10 +68,9 @@ article {
 nav a {
     color: blue;
     padding: 5px;
-    display: block;
+    display: inline;
 }
 
-header,
 main,
 footer {
     width: 840px;
@@ -51,6 +92,10 @@ footer {
     float: right;
     width: 125px;
 
+}
+
+.hero p {
+    position: absolute;
 }
 
 h1 {
@@ -123,4 +168,64 @@ article p {
 article img {
     width: 200px;
     text-align: justify;
+}
+
+.flex {
+    background-color: #aba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid {
+    background-color: #abb;
+    display: grid;
+    place-items: center;
+
+    /* enter declarations here */
+
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* write declarations here */
+
+}
+
+.two {
+    background-color: #ace;
+    height: 100px;
+}
+
+.container3 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* write declarations here */
+
+}
+
+.columns-3 {
+    grid-column: 1/4;
+    /* write declaration here */
+
+}
+
+.three {
+    margin: .25rem;
+    background-color: #abd;
+}
+
+div {
+    margin: 1rem;
+    border: 1px dashed;
+    padding: 1rem;
+}
+
+.one {
+    width: 200px;
+    height: 200px;
 }
