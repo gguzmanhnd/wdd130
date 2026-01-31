@@ -102,7 +102,7 @@ p {
     height: auto;
 }
 
-.hero-article {
+.hero article {
     position: absolute;
     opacity: 0.9;
     margin-top: 8rem;
@@ -112,7 +112,7 @@ p {
     align-items: center;
 }
 
-.hero-article img {
+.hero article img {
     float: right;
     width: 125px;
 }
