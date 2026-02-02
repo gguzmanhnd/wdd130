@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/poll.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gerardo Guzman">
+    <meta name="description" content="Create Form´s Html">
+
+    <title>Build the Form</title>
+</head>
+
+<body>
+    <main>
+        <h1>WWD 130 HTML Form - User Poll</h1>
+        <br>
+        <br>
+        <form>
+            <fieldset>
+                <legend>Contact information</legend>
+                <div class="form-item column2">
+                    <label for="username">User full name: </label>
+                    <input type="text" id="fullname" name="fullname">
+
+                </div>
+                <div class="form-item column2">
+                    <label for="email">Email</label>
+                    <input type="email" id="useremail" name="useremail">
+
+
+                </div>
+            </fieldset>
+
+            <br>
+            <br>
+            <fieldset>
+                <legend>Questions</legend>
+
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="1">Chrome</option>
+                        <option value="2">Safari</option>
+                        <option value="3">Edge</option>
+                        <option value="4">Brave</option>
+                        <option value="5">Other</option>
+                    </select>
+                    <section>
+                        <br>
+                        <div class="column3 grid">
+                            <img src="images/chrome.png">
+                            <img src="images/safari.png">
+                            <img src="images/edge.png">
+                            <img src="images/brave.png">
+                        </div>
+                    </section>
+                </div>
+                <br>
+                <br>
+                <div class="form-item column1">
+                    <label class="form row label" for="pet">Do you have a household pet?</label>
+                    <input class="checkbox-row" type="checkbox" name="pet" id="pet">
+                    <br>
+                    <br>
+                </div>
+                <div class="form-column">
+                    <label class="form-row label" for="feedback">List the places you have
+                        lived!</label>
+                    <textarea id="feedback" name="textarea" rows="4"
+                      placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+                </div>
+
+                <button class="button" type="submit">Submit Poll</button>
+            </fieldset>
+        </form>
+
+    </main>
+</body>
+<footer>
+
+    <p>© 2026 | GERARDO GUZMAN | TEGUCIGALPA HONDURAS</p>
+
+
+</footer>
+
+</html>

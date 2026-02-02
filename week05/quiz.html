@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gerardo Guzman">
+    <meta name="description" content="Create Form´s Html">
+    <title>Quiz Form</title>
+</head>
+
+<body>
+    <main>
+        <h1>✅ Basic HTML and CSS Quiz</h1>
+        <br>
+        <br>
+        <form>
+            <fieldset>
+
+                <div class="form-column">
+                    <label for="q1">
+                        <strong>1. </strong>What does the acronym CSS stand for?
+                    </label>
+                    <br>
+                    <input type="text" id="q1" name="q1">
+
+                </div>
+                <div class="form-column">
+                    <label for="q2">
+                        <strong>2. </strong>How are id and class attributes selected in CSS?
+                    </label>
+                    <br>
+                    <textarea id="q2" name="q2" rows="4"></textarea>
+                </div>
+
+                <div class="form-column">
+                    <br>
+                    <label for="q3">
+                        <strong>3. </strong>Which of the following is a valid CSS Comment?
+                    </label>
+                    <br>
+                    <select name="q3" id="a3">
+                        <option value="" selected disabled>Choose one</option>
+                        <option value="A">&lt;!---Comment---&gt;</option>
+                        <option value="B">/*_Comment*/</option>
+                        <option value="C">"""Comment"""</option>
+                    </select>
+
+                    <div class="form-column">
+                        <br>
+                        <label for="q4">
+                            <strong>4. </strong>What is the bottom margin given this
+                            declaration?
+                        </label>
+                        <br>
+                        <code class="box">margin: 10px 5px 15px;</code>
+                        <br>
+
+                        <input type="text" id="q4" name="q4">
+
+
+                    </div>
+                    <br>
+                    <button class="button" type="submit">Submit Poll</button>
+            </fieldset>
+
+            <br>
+            <br>
+
+        </form>
+
+    </main>
+
+
+</body>
+
+</html>
