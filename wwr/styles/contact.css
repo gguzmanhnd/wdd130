@@ -273,8 +273,49 @@ div p {
 .checkbox {
     margin-top: 15px;
     font-weight: normal;
+    flex-direction: column-reverse;
+}
+
+.checkbox-row input {
+    transform: scale(1.2);
 }
 
 .radio {
+    flex-direction: column;
+    align-content: left;
+}
+
+table {
+    border-collapse: collapse;
+
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    ;
+}
+
+.form-column {
+    display: flex;
     flex-direction: column;
 }

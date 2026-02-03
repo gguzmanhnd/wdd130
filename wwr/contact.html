@@ -39,7 +39,7 @@
 
         <div class="container">
             <div class="maps">
-                <iframe src="https://www.google.com/maps/embed?..." width="300" height="350"
+                <iframe src="https://www.google.com/maps/embed?..." width="400" height="450"
                   allowfullscreen="" loading="lazy"></iframe>
 
             </div>
@@ -52,31 +52,44 @@
                     <label for="email">Email</label>
                     <input type="email" id="email" name="mail">
                     <fieldset class="radio">
-                        <legend>Message Purpose</legend>
-
-                        <label for="radio1"> <input type="radio" name="purpose" id="radio1" checked>
-                            General Inquiry
-                        </label>
-
-                        <label for="radio2"> <input type="radio" name="purpose" id="radio2">
-                            Reservation Question
-                        </label>
-
-                        <label for="radio3"><input type="radio" name="purpose" id="radio3">Website
-                            Suggestion </label>
+                        <table>
+                            <th rowspan="4">
+                                <legend>Message Purpose</legend>
+                            </th>
+                            <tr>
+                                <td><label for="radio1"> <input type="radio" name="purpose"
+                                          id="radio1" checked>
+                                        General Inquiry
+                                    </label></td>
+                            </tr>
+                            <tr>
+                                <td> <label for="radio2"> <input type="radio" name="purpose"
+                                          id="radio2">
+                                        Reservation Question
+                                    </label> </td>
+                            </tr>
+                            <tr>
+                                <td><label for="radio3"><input type="radio" name="purpose"
+                                          id="radio3">Website
+                                        Suggestion </label></td>
+                            </tr>
+                        </table>
                     </fieldset>
+
                     <div class="form-column">
-                        <label class="form-row label" for="feedback">Message </label>
-                        <textarea id="feedback" name="textarea" rows="4"></textarea>
+                        <label class="form-row label" for="message">Message </label>
+                        <textarea id="message" name="message" rows="4"></textarea>
                     </div>
+
+
                     <div class="form-item column1">
-                        <label class="form row label" for="pet">Please Subscribe me to the
+                        <label class="form row label" for="subscribe">Please Subscribe me to the
                             monthly newsletter</label>
-                        <input class="checkbox-row" type="checkbox" name="pet" id="pet">
+                        <input class="checkbox-row" type="checkbox" name="subscribe" id="subscribe">
                         <br>
                         <br>
                     </div>
-                    <button class="button" type="submit">Submit Poll</button>
+                    <button class="button" type="submit">Submit</button>
 
                 </form>
             </div>
