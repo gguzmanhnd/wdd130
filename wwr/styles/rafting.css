@@ -162,6 +162,27 @@ section article img {
 
 }
 
+div h1 {
+    color: #000;
+    align-content: center;
+    position: relative;
+
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+
+}
+
+div p {
+    color: #000;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    font-size: large;
+
+}
+
 h1 {
     position: absolute;
     top: 20px;
@@ -169,7 +190,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -255,4 +276,125 @@ article p {
 article img {
     width: 200px;
     text-align: justify;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+form input,
+form textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+
+}
+
+fieldset {
+    margin-top: 15px;
+    border: none;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.checkbox {
+    margin-top: 15px;
+    font-weight: normal;
+    flex-direction: column-reverse;
+}
+
+.checkbox-row input {
+    transform: scale(1.2);
+}
+
+.radio {
+    flex-direction: column;
+    align-content: left;
+}
+
+table {
+    border-collapse: collapse;
+
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    ;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+}
+
+article p {
+    text-align: justify;
+    margin: 1px;
+    width: 650px;
+    height: auto;
+}
+
+article img {
+    width: 200px;
+    text-align: justify;
+}
+
+section article {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+article {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+section article img {
+    padding: 1%;
+    max-width: 165px;
+    height: 160px;
+
 }
