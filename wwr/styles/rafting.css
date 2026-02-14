@@ -62,7 +62,7 @@ header {
 }
 
 .navigation a:hover {
-    color: steelblue;
+    color: #f5f5f5;
     text-decoration: underline;
 }
 
