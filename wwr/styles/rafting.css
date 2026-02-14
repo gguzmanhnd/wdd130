@@ -544,3 +544,63 @@ figure {
     gap: 80px;
 
 }
+
+.booking {
+    background: #e5e7eb;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.booking h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.booking h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
+
+.booking label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+.booking select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cbd5e1;
+}
+
+.note {
+    margin: 20px 0;
+}
+
+.small {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.trip-info h3 {
+    margin: 20px 0;
+    font-size: 40px;
+    font-weight: 500;
+    color: blue;
+    align-items: center;
+}
+
+.prices {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.prices strong {
+    display: block;
+    margin-bottom: 5px;
+}
